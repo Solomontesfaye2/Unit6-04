@@ -3,8 +3,7 @@ let bass2 = 0
 let height = 0
 let answer = 0
 
-document.getElementById('calculate').addEventListener
-('click', calculate)
+document.getElementById('calculate').addEventListener('click', calculate)
 
 function calculate () {
   bass1 = document.getElementById('bass-1').value
@@ -14,5 +13,5 @@ function calculate () {
   height = document.getElementById('height').value
   height = parseInt(height)
   answer = (bass1 + bass2) * height/2
-   alert(answer)
+  alert (answer)
 }
