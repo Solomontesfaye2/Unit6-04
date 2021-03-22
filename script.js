@@ -13,5 +13,5 @@ function calculate () {
   height = document.getElementById('height').value
   height = parseInt(height)
   answer = (bass1 + bass2) * height / 2
- alert(answer)
+  alert(answer)
 }
